@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         currentIndex = 0
         loadFragment(PreviewFragment())
         binding.first.setBackgroundResource(R.drawable.bg_indicator_selected)
+        binding.second.setBackgroundResource(R.drawable.bg_indicator)
+        binding.third.setBackgroundResource(R.drawable.bg_indicator)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(ConfirmationFragment())
                     ++currentIndex
                     getStartedBtn.text = resources.getString(R.string.start_it)
-                    second.setBackgroundResource(R.drawable.bg_indicator_selected)
+                    third.setBackgroundResource(R.drawable.bg_indicator_selected)
                 }
                 else -> {
                     startActivity(Intent(this@MainActivity, PrimaCheckerActivity::class.java))
