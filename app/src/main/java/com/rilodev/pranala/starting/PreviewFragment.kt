@@ -1,11 +1,10 @@
 package com.rilodev.pranala.starting
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.rilodev.pranala.R
+import androidx.fragment.app.Fragment
 import com.rilodev.pranala.databinding.FragmentPreviewBinding
 
 class PreviewFragment : Fragment() {
@@ -27,7 +26,7 @@ class PreviewFragment : Fragment() {
         }
     }
 
-    private fun FragmentPreviewBinding.initUI() {
+    private fun initUI() {
 
     }
 }

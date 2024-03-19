@@ -1,8 +1,7 @@
 package com.rilodev.pranala.prima_number
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.rilodev.pranala.R
 import com.rilodev.pranala.databinding.ActivityPrimaCheckerBinding
 import com.rilodev.pranala.utils.Utils
